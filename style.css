@@ -589,9 +589,6 @@ nav a,
 }
 
 @media only screen and (max-width: 500px) {
-    .intro-section-wrap {
-        background: url(images/IMG_1904-min3-min.jpg) no-repeat center;
-    }
     label {
         display: block;
         cursor: pointer;
