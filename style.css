@@ -237,6 +237,7 @@ nav a,
 
 .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
+    transform: rotateX(0deg);
 }
 
 .flip-card-front,
