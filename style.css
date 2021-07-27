@@ -249,7 +249,7 @@ nav a,
 }
 
 .flip-card-front {
-    /*background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
     backface-visibility: hidden;
     z-index: 2;
     transform: rotateY(180deg);
