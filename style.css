@@ -90,7 +90,6 @@ label {
     width: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: right;
     background-size: cover;
 }
 
@@ -589,6 +588,9 @@ nav a,
 }
 
 @media only screen and (max-width: 500px) {
+    .intro-section-wrap {
+        background-position: right;
+    }
     label {
         display: block;
         cursor: pointer;
@@ -640,7 +642,7 @@ nav a,
         height: 14rem;
     }
     .intro-section-wrap {
-        background-position: center !important;
+        background-position: center;
     }
     .content {
         padding: 1.1em 1.1em;
