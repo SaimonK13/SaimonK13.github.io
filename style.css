@@ -279,6 +279,7 @@ nav a,
     transform: rotateY(180deg);
     background-repeat: no-repeat;
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 }
