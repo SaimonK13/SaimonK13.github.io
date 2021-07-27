@@ -276,6 +276,7 @@ nav a,
     background-color: #f1f1f1;
     padding: 1em;
     transform: rotateY(180deg);
+    background-repeat: no-repeat;
     backface-visibility: hidden;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
