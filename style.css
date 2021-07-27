@@ -252,7 +252,6 @@ nav a,
     /*background-repeat: no-repeat;*/
     z-index: 2;
     transform: rotateY(0deg);
-    transform: rotateX(0deg);
     color: white;
     color: white;
 }
