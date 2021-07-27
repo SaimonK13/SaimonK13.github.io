@@ -250,6 +250,8 @@ nav a,
 
 .flip-card-front {
     background-repeat: no-repeat;
+    z-index: 2;
+    transform: rotateY(180deg);
     color: white;
 }
 
