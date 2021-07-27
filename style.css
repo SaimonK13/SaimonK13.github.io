@@ -273,6 +273,7 @@ nav a,
 }
 
 .flip-card-back {
+    background-repeat: no-repeat;
     background-color: #f1f1f1;
     padding: 1em;
     transform: rotateY(180deg);
