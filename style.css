@@ -250,6 +250,7 @@ nav a,
 
 .flip-card-front {
     /*background-repeat: no-repeat;*/
+    backface-visibility: hidden;
     z-index: 2;
     transform: rotateY(180deg);
     transform: rotateX(0deg);
@@ -275,6 +276,7 @@ nav a,
     background-color: #f1f1f1;
     padding: 1em;
     transform: rotateY(180deg);
+    backface-visibility: hidden;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 }
