@@ -237,7 +237,6 @@ nav a,
 
 .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
-    transform: rotateX(0deg);
 }
 
 .flip-card-front,
@@ -253,6 +252,7 @@ nav a,
     /*background-repeat: no-repeat;*/
     z-index: 2;
     transform: rotateY(0deg);
+    transform: rotateX(0deg);
     color: white;
     color: white;
 }
