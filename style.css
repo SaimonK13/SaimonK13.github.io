@@ -246,11 +246,10 @@ nav a,
     height: 100%;
     background-size: cover;
     backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
 }
 
 .flip-card-front {
-    /*background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
     z-index: 2;
     transform: rotateY(180deg);
     color: white;
