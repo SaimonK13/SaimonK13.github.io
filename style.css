@@ -589,6 +589,10 @@ nav a,
 }
 
 @media only screen and (max-width: 500px) {
+    
+    .intro-section-wrap {
+        background-position: top;
+    }
     label {
         display: block;
         cursor: pointer;
