@@ -90,6 +90,7 @@ label {
     width: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center;
     background-size: cover;
 }
 
@@ -640,9 +641,6 @@ nav a,
     .intro-section img {
         width: 14rem;
         height: 14rem;
-    }
-    .intro-section-wrap {
-        background-position: center;
     }
     .content {
         padding: 1.1em 1.1em;
