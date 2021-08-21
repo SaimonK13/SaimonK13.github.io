@@ -84,16 +84,15 @@ label {
 }
 
 .intro-section-wrap {
-    background-image: url(images/IMG_1904-min3-min.jpg);
+    background: url(images/IMG_1904-min3-min.jpg);
     height: 100%;
     width: 100%;
-    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
     background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
 }
 
 .intro-section img {
