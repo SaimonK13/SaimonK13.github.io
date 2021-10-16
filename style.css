@@ -258,8 +258,14 @@ nav a,
     color: white;
 }
 
-.flip-card-front.splunk {
-    background-image: url(images/splunk2.jpg);
+.flip-card-front.BD_analysis {
+    background-image: url(images/lake-image.jpg);
+    padding: 2em;
+    line-height: 3em;
+}
+
+.flip-card-front.BD_analysis h2 {
+    color: whitesmoke;
 }
 
 .flip-card-front.google {
@@ -274,7 +280,6 @@ nav a,
 }
 
 .flip-card-back {
-    background-color: #f1f1f1;
     padding: 1em;
     transform: rotateY(180deg);
     background-repeat: no-repeat;
@@ -292,6 +297,15 @@ nav a,
     margin: 0 auto;
     width: 95%;
     line-height: 35px;
+}
+.flip-card-back.BD_analysis {
+    background-color: #008080;
+    color: whitesmoke;
+}
+
+.flip-card-back.google {
+    background-color: #5b95f1;
+    color: whitesmoke;
 }
 
 .fade-in {
