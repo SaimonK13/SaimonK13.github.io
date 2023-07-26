@@ -407,7 +407,7 @@ nav a,
     text-align: center;
     position: absolute;
     top: 50%;
-    right: 23%;
+    right: 22%;
     box-shadow: 0 15px 25px -15px black;
     transform: translateY(-50%);
 }
@@ -416,10 +416,10 @@ nav a,
     content: "";
     border-right: 1.08em solid #E36C14;
     border-top: 18px solid transparent;
-    border-bottom: 18px solid transparent;
+    border-bottom: 20px solid transparent;
     position: absolute;
     top: 0;
-    left: -18px;
+    left: -17px;
 }
 
 .main-timeline .timeline-content {
@@ -438,7 +438,7 @@ nav a,
     border-bottom: 20px solid transparent;
     position: absolute;
     top: 50%;
-    right: -20px;
+    right: -19px;
     transform: translateY(-50%);
 }
 
@@ -477,11 +477,11 @@ nav a,
 }
 
 .main-timeline .timeline:nth-child(2n) .year:before {
-    border: 18px solid transparent;
+    border: 19px solid transparent;
     border-right: none;
-    border-left: 18px solid #E36C14;
+    border-left: 19px solid #E36C14;
     left: auto;
-    right: -18px;
+    right: -17px;
 }
 
 .main-timeline .timeline:nth-child(2n) .timeline-content {
@@ -491,17 +491,17 @@ nav a,
 
 .main-timeline .timeline:nth-child(2n) .timeline-content:after {
     border-left: none;
-    border-right: 20px solid #1C4EAA;
+    border-right: 22px solid #1C4EAA;
     right: auto;
     left: -20px;
 }
 
 @media only screen and (min-width: 1560px) {
     .main-timeline .year {
-        right: 29%;
+        right: 28%;
     }
     .main-timeline .timeline:nth-child(2n) .year {
-        left: 29%;
+        left: 28%;
     }
 }
 
@@ -516,10 +516,10 @@ nav a,
 
 @media only screen and (max-width: 990px) {
     .main-timeline .year {
-        right: 18%;
+        right: 15%;
     }
     .main-timeline .timeline:nth-child(2n) .year {
-        left: 18%;
+        left: 16%;
     }
 }
 
@@ -558,7 +558,7 @@ nav a,
     }
     .main-timeline .timeline:nth-child(2n) .year:before {
         border-left: none;
-        border-right: 18px solid #E36C14;
+        border-right: 19px solid #E36C14;
         right: auto;
         left: -18px;
     }
@@ -636,7 +636,7 @@ nav a,
     }
 }
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1170px) {
     nav {
         height: 68px
     }
