@@ -412,16 +412,6 @@ nav a,
     transform: translateY(-50%);
 }
 
-.main-timeline .year:before {
-    content: "";
-    border-right: 1.08em solid #E36C14;
-    border-top: 18px solid transparent;
-    border-bottom: 20px solid transparent;
-    position: absolute;
-    top: 0;
-    left: -17px;
-}
-
 .main-timeline .timeline-content {
     width: 46.5%;
     padding: 1.5em;
@@ -512,6 +502,7 @@ nav a,
     .main-timeline .timeline:nth-child(2n) .year {
         left: 21%;
     }
+    
 }
 
 @media only screen and (max-width: 990px) {
@@ -673,5 +664,17 @@ nav a,
     .flip-card {
         width: 16em;
         height: 16em;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .main-timeline .year:before {
+        content: "";
+        border-right: 1.08em solid #E36C14;
+        border-top: 18px solid transparent;
+        border-bottom: 20px solid transparent;
+        position: absolute;
+        top: 0;
+        left: -17px;
     }
 }
