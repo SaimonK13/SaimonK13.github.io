@@ -582,7 +582,7 @@ nav a,
     }
     .main-timeline .year,
     .main-timeline .timeline:nth-child(2n) .year {
-        margin-left: 20px;
+        margin-left: 10px;
     }
     .main-timeline .timeline-content,
     .main-timeline .timeline:nth-child(2n) .timeline-content {
