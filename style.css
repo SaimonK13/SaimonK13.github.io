@@ -268,13 +268,13 @@ nav a,
     color: whitesmoke;
 }
 
-.flip-card-front.google {
-    background-color: #4285F4;
+.flip-card-front.titanic {
+    background-image: url(images/joel-filipe-QwoNAhbmLLo-unsplash.jpg);
     padding: 2em;
     line-height: 3em;
 }
 
-.flip-card-front.google h2 {
+.flip-card-front.titanic h2 {
     color: white;
     text-shadow: 1px 1px #0B0C10;
 }
@@ -303,8 +303,8 @@ nav a,
     color: whitesmoke;
 }
 
-.flip-card-back.google {
-    background-color: #5b95f1;
+.flip-card-back.titanic {
+    background-color: #4d4255d8;
     color: whitesmoke;
 }
 
