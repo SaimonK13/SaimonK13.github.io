@@ -269,7 +269,7 @@ nav a,
 }
 
 .flip-card-front.titanic {
-    background-image: url(images/joel-filipe-QwoNAhbmLLo-unsplash.jpg);
+    background-image: url('images/joel-filipe-QwoNAhbmLLo-unsplash.jpg');
     padding: 2em;
     line-height: 3em;
 }
